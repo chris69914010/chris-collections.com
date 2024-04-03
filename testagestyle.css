@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(images/sexy05.jpg) no-repeat;
+    background: url(images/sexy03.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(20px);
@@ -65,7 +65,7 @@ p {
 
 .parental-control-message a {
     display: contents;
-    color: #ec567c;
+    color: #FC0FC0;
 }
 
 .parental-control-message a:hover {
@@ -103,7 +103,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #e33561;
+    background-color: #FC0FC0;
     margin-top: 70px;
 }
 
