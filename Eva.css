@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: bottom;
+}
+
+nav {
+    width: 100%;
+    height: 62px;
+    background-color: #161617;
+}
+
+.logo-wrapper {
+    margin-top: -30px;
+    float: left;
+    padding: 6px 0px;
+    position: relative;
+    top: 22px;
+}
+
+nav p {
+    font-family: Gill sans;
+    color: #222;
+    font-size: 30px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav a:hover {
+    display: contents;
+    color: #FC0FC0;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    padding: 20px 30px;
+}
+
+nav ul li a {
+    display: contents;
+    font-family: arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 1px 20px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #161617;
+    padding: 15px 1px;
+    border-radius: 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 130px;
+    border-radius: 4px;
+    padding: 10px 8px;
+}
+
+nav ul li ul li a {
+    padding: 6px 10px;
+}
+
+nav ul li ul li a:hover {
+    background-color: rgb(93, 91, 91);
+}
+
+
+.container {
+    max-width: 500px;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.title-name {
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.title-image {
+    width: 49.5vh;
+    height: 65vh;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #FC0FC0;
+    border-radius: 3px;
+}
+
+.text p {
+    color: #fff;
+    position: relative;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 700px;
+    margin-left: 600px;
+    margin-top: -528px;
+}
+
+.status {
+    color: #fff;
+    list-style: none;
+    width: 95vh;
+    margin-left: 600px;
+    margin-top: 40px;
+    line-height: 0.5;
+    border: 2px solid #FC0FC0;
+    border-spacing: 14px;
+}
+
+
+
+
+.link-group {
+    list-style-type: none;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+.link-group li {
+    margin-bottom: 10px;
+}
+
+
+.link-group li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.link-group li a:hover {
+    color: #FC0FC0;
+}
